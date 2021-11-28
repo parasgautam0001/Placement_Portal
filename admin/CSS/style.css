@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate & family=Hachi+Maru+Pop &display=swap');
+
+/*
+====================
+Home Page
+====================
+*/
+
+.Afterlogin {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+}
+.home-content {
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  height: 660px;
+  width: 1535px; 
+}
+
+/* Mobile View */
+@media screen and (max-width: 650px) {
+  .Afterlogin {
+    background-image: url(../Images/bg1.jpg);
+    background-repeat: repeat-y;
+    background-color: #211a1a;
+  }
+}
+
+
+/*
+====================
+Error Message
+====================
+*/
+.error-message .wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
